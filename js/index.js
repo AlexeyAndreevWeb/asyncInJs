@@ -36,12 +36,9 @@ const dogImage = document.querySelector('.dogImage')
 const image = document.createElement('img')
 dogImage.append(image)
 
-
 const arrayImageDogs = await getDogImage()
 let count = 0
 let interval;
-
-console.log(arrayImageDogs)
 
 interval = setInterval(() => {
   if(count < arrayImageDogs.message.length) {
