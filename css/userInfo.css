@@ -1,0 +1,46 @@
+* {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.user-info {
+  color: #fff;
+  border: 1px solid #5a5a5a;
+  width: 100%;
+  text-align: left;
+  padding: 15px;
+}
+
+.persona {
+  display: flex;
+  gap: 40px;
+  padding-bottom: 80px;
+}
+
+.persona div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.persona__avatar {
+  width: 130px;
+  height: 130px;
+}
+
+.persona__name {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.persona__email a:hover {
+  color: rgb(193, 70, 224)
+}
+
+.persona__website a:hover {
+  color: rgb(193, 70, 224)
+}
